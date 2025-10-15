@@ -76,25 +76,25 @@ function generateSignature(isMobile) {
                                 </tr>
                                 <tr>
                                     <td style="padding-top: 3px;">
-                                        <img src="https://techbbq.dk/wp-content/uploads/2025/01/phone-2021.png" width="15" style="display: inline-block; margin-left: 5px; vertical-align: middle;">
+                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Phone.png" width="15" style="display: inline-block; margin-left: 5px; vertical-align: middle;">
                                         <a href="tel:${phone}" style="text-decoration: none; color: ${isMobile ? '#fff' : '#191919'}; font-size: 10px; margin-left: 5px;">${phone}</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="padding-top: 3px;">
-                                        <img src="https://techbbq.dk/wp-content/uploads/2025/01/Mail-2021.png" width="15" style="display: inline-block; margin-left: 5px; vertical-align: middle;">
+                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Mail.png" width="15" style="display: inline-block; margin-left: 5px; vertical-align: middle;">
                                         <a href="mailto:${email}" style="text-decoration: none; color: ${isMobile ? '#fff' : '#191919'}; font-size: 10px; margin-left: 5px;">${email}</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="padding-top: 3px;">
-                                        <img src="https://techbbq.dk/wp-content/uploads/2025/01/website-2021.png" width="15" style="display: inline-block; margin-left: 5px; vertical-align: middle;">
+                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Website.png" width="15" style="display: inline-block; margin-left: 5px; vertical-align: middle;">
                                         <a href="${website}" target="_blank" style="text-decoration: none; color: ${isMobile ? '#fff' : '#191919'}; font-size: 10px; margin-left: 5px;">${website}</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="padding-top: 3px;">
-                                        <img src="https://techbbq.dk/wp-content/uploads/2025/01/location2021.png" width="12" style="display: inline-block; margin-left: 5px; vertical-align: middle;">
+                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Location.png" width="12" style="display: inline-block; margin-left: 5px; vertical-align: middle;">
                                         <span style="color: ${isMobile ? '#fff' : '#191919'}; font-size: 10px; margin-left: 5px;">Matrikel1, Copenhagen</span>
                                     </td>
                                 </tr>
@@ -104,17 +104,17 @@ function generateSignature(isMobile) {
                                             <tr>
                                                 <td style="padding-right: 5px;">
                                                     <a href="https://www.facebook.com/TechBBQ/" target="_blank" style="display: inline-block;">
-                                                        <img src="https://techbbq.dk/wp-content/uploads/2025/01/facebook-2021.png" alt="facebook" height="20">
+                                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Facebook.png" alt="facebook" height="20">
                                                     </a>
                                                 </td>
                                                 <td style="padding-right: 5px;">
                                                     <a href="https://www.linkedin.com/company/techbbq/" target="_blank" style="display: inline-block;">
-                                                        <img src="https://techbbq.dk/wp-content/uploads/2025/01/linkedin-2021.png" alt="linkedin" height="20">
+                                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Linkedin.png" alt="linkedin" height="20">
                                                     </a>
                                                 </td>
                                                 <td>
                                                     <a href="https://www.instagram.com/techbbqdk/" target="_blank" style="display: inline-block;">
-                                                        <img src="https://techbbq.dk/wp-content/uploads/2025/01/intstagram-2021.png" alt="instagram" height="20">
+                                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Insta.png" alt="instagram" height="20">
                                                     </a>
                                                 </td>
                                             </tr>
