@@ -76,45 +76,45 @@ function generateSignature(isMobile) {
                                 </tr>
                                 <tr>
                                     <td style="padding-top: 3px;">
-                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Phone.png" width="15" style="display: inline-block; margin-left: 5px; vertical-align: middle;">
-                                        <a href="tel:${phone}" style="text-decoration: none; color: ${isMobile ? '#fff' : '#191919'}; font-size: 10px; margin-left: 5px;">${phone}</a>
+                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Phone25.png" width="16" style="display: inline-block; margin-left: 5px; vertical-align: middle;">
+                                        <a href="tel:${phone}" style="text-decoration: underline; color: ${isMobile ? '#fff' : '#191919'}; font-size: 10px; margin-left: 5px; font-family: Verdana;">${phone}</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="padding-top: 3px;">
-                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Mail.png" width="15" style="display: inline-block; margin-left: 5px; vertical-align: middle;">
-                                        <a href="mailto:${email}" style="text-decoration: none; color: ${isMobile ? '#fff' : '#191919'}; font-size: 10px; margin-left: 5px;">${email}</a>
+                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Mail25.png" width="16" style="display: inline-block; margin-left: 5px; vertical-align: middle;">
+                                        <a href="mailto:${email}" style="text-decoration: underline; color: ${isMobile ? '#fff' : '#191919'}; font-size: 10px; margin-left: 5px; font-family: Verdana;">${email}</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="padding-top: 3px;">
-                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Website.png" width="15" style="display: inline-block; margin-left: 5px; vertical-align: middle;">
-                                        <a href="${website}" target="_blank" style="text-decoration: none; color: ${isMobile ? '#fff' : '#191919'}; font-size: 10px; margin-left: 5px;">${website}</a>
+                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Website25.png" width="16" style="display: inline-block; margin-left: 5px; vertical-align: middle;">
+                                        <a href="${website}" target="_blank" style="text-decoration: underline; color: ${isMobile ? '#fff' : '#191919'}; font-size: 10px; margin-left: 5px; font-family: Verdana;">${website}</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="padding-top: 3px;">
-                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Location.png" width="12" style="display: inline-block; margin-left: 5px; vertical-align: middle;">
-                                        <span style="color: ${isMobile ? '#fff' : '#191919'}; font-size: 10px; margin-left: 5px;">Matrikel1, Copenhagen</span>
+                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Location25.png" width="16" style="display: inline-block; margin-left: 5px; vertical-align: middle;">
+                                        <span style="color: ${isMobile ? '#fff' : '#191919'}; font-size: 10px; margin-left: 5px; font-family: Verdana; text-decoration: underline;">Matrikel1, Copenhagen</span>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="padding-top: 10px;">
                                         <table cellpadding="0" cellspacing="0">
                                             <tr>
-                                                <td style="padding-right: 5px;">
+                                                <td style="padding-right: 3px;">
                                                     <a href="https://www.facebook.com/TechBBQ/" target="_blank" style="display: inline-block;">
-                                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Facebook.png" alt="facebook" height="20">
+                                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Facebook25.png" alt="facebook" height="20">
                                                     </a>
                                                 </td>
-                                                <td style="padding-right: 5px;">
+                                                <td style="padding-right: 3px;">
                                                     <a href="https://www.linkedin.com/company/techbbq/" target="_blank" style="display: inline-block;">
-                                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Linkedin.png" alt="linkedin" height="20">
+                                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Linkedin25.png" alt="linkedin" height="20">
                                                     </a>
                                                 </td>
                                                 <td>
                                                     <a href="https://www.instagram.com/techbbqdk/" target="_blank" style="display: inline-block;">
-                                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Insta.png" alt="instagram" height="20">
+                                                        <img src="https://techbbq.dk/wp-content/uploads/2025/10/Instagram25.png" alt="instagram" height="20">
                                                     </a>
                                                 </td>
                                             </tr>
