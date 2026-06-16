@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signature Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <h1>Email Signature Generator</h1>
+            <form id="signatureForm">
+                <div class="form-group">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" value="Auri Baciauskas" required>
+                </div>
+                <div class="form-group">
+                    <label for="position">Position:</label>
+                    <input type="text" id="position" value="Senior Digital Designer & AI Lead" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" value="+45 22 33 44 55" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" value="auri@techbbq.org" required>
+                </div>
+                <div class="form-group">
+                    <label for="website">Website:</label>
+                    <input type="url" id="website" value="https://techbbq.dk" required>
+                </div>
+                <div class="form-group">
+                    <label for="photo">Photo URL:</label>
+                    <input type="url" id="photo" value="https://techbbq.dk/wp-content/uploads/2025/10/auri.png" required>
+                </div>
+                <div class="form-group">
+                    <label for="linkedin">LinkedIn URL:</label>
+                    <input type="url" id="linkedin" value="https://www.linkedin.com/in/auribaci/" required>
+                </div>
+                <div class="form-group">
+                    <label for="extraText">Extra Text (optional):</label>
+                    <input type="text" id="extraText" value="See you at TechBBQ 2026">
+                </div>
+                <button type="submit">Generate Signature</button>
+            </form>
+        </div>
+        <div class="preview-section">
+            <div class="preview-box desktop">
+                <h2>Desktop Preview (>768px)</h2>
+                <div id="desktopPreview"></div>
+            </div>
+            <div class="preview-box mobile">
+                <h2>Mobile Preview (<768px)</h2>
+                <div id="mobilePreview"></div>
+            </div>
+            <button id="copySignature" style="display: none;">Copy Signature</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+      window.addEventListener('load', () => {
+        document.getElementById('signatureForm').dispatchEvent(new Event('submit'));
+      });
+    </script>
+</body>
+</html>
